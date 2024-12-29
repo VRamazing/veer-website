@@ -13,7 +13,8 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 export function TimeLineComponent() {
     return (
-        <Timeline>
+
+        <><p>Experience</p><Timeline>
             <TimelineItem>
                 <TimelinePoint />
                 <TimelineContent>
@@ -50,6 +51,6 @@ export function TimeLineComponent() {
                     </TimelineBody>
                 </TimelineContent>
             </TimelineItem>
-        </Timeline>
+        </Timeline></>
     );
 }

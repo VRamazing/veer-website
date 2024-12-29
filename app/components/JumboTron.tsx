@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function AboutJumboTron() {
+export default function JumboTron() {
     return (
         <section className="bg-gray-700 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-center bg-no-repeat bg-blend-multiply">
             <div className="mx-auto max-w-screen-xl px-4 py-24 text-center lg:py-56">
